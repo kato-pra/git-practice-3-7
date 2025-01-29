@@ -37,7 +37,7 @@ jobs:
 
     - name: Install terraform-docs
       run: |
-        wget https://github.com/terraform-docs/terraform-docs/releases/tag/v0.19.0/terraform-docs-v0.19.0-linux-amd64.tar.gz
+        wget https://github.com/terraform-docs/terraform-docs/archive/refs/tags/v0.19.0.tar.gz
         tar -xzf terraform-docs-v0.19.0-linux-amd64.tar.gz
         sudo mv terraform-docs /usr/local/bin/
         sudo chmod +x /usr/local/bin/terraform-docs
